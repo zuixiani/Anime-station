@@ -1,0 +1,52 @@
+.banner{
+    width: 90%;
+    height: 400px;
+    margin: 15px auto;
+}
+.banner img{
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit:cover;
+}
+.zhuti{
+    width: 90%;
+    height: 400px;
+    margin: 0px auto;
+    margin-bottom: 15px;
+    background-color: beige;
+
+}
+.zhuti .img{
+    width: 40%;
+    height: 100%;
+    float: left;
+    overflow: hidden;
+}
+.zhuti img{
+    width: 100%;
+    height: 100%;
+    object-fit:cover;
+}
+.zhuti img:hover{
+    transform: scale(1.05);
+    
+}
+.zhuti .jieshao{
+    width: 56%;
+    float: right;
+    height: 100%;
+    padding: 0 20px;
+}
+.zhuti .jieshao .wz{
+    overflow: auto;
+    height: 75%;
+    padding: 0 5px;
+}
+.zhuti .jieshao h2{
+    line-height: 80px;
+}
+.zhuti .jieshao p{
+    line-height: 30px;
+    text-indent: 2em;
+}

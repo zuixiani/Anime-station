@@ -1,0 +1,212 @@
+* {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+    transition: 0.4s;
+}
+.logo{
+    width: 100%;
+    height: 130px;
+    display: block;
+    background-image: url(../images/index/logo.png);
+    background-position-y: -10px;
+    background-size: cover;
+    background-repeat: no-repeat;   
+}
+nav{
+    display: block;
+    width: 100%;
+    height: 55px;
+    /* background: red; */
+    background: rgb(144,116,102);
+}
+nav ul{
+    height: 100%;
+    margin-left: 5%;
+}
+nav ul li{
+    position: relative;
+    float: left;
+}
+nav ul li .sp{
+    position: absolute;
+    width: 100%;
+    height: 40px;
+    display: none;
+}
+nav ul li .sp a{
+    line-height: 40px;
+    background-color: rgba(144,116,102,0.9);
+
+}
+nav ul li:hover>.sp{
+    display: block;
+}
+nav ul li a{
+    display: block;
+    height: 100%;
+    /* margin: 0 22px; */
+    padding: 0 22px;
+    line-height: 55px;
+    text-align: center;
+    color: black;
+    color: aliceblue;
+}
+nav ul li a:hover{
+    background-color: #fff;
+    color: #000;
+}
+.banner{
+    width: 100%;
+    height: 500px;
+    overflow: hidden;
+}
+.banner img{
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit:cover;
+}
+.zhuti .leirong1{
+    width: 90%;
+    height: 300px;
+    background:rgb(248,248,248);
+    margin: 25px auto;
+
+}
+.zhuti .leirong1 .left{
+    width: 70%;
+    height: 100%;
+    float: left;
+    background:rgba(238,249,255);
+}
+.zhuti .leirong1 .left .img{
+    width: 40%;
+    float: left;
+    height: 100%;
+    background:rgb(240,240,240);
+}
+.zhuti .leirong1 .left img{
+    width: 95%;
+    height: 80%;
+    margin: 8px;
+    object-fit:cover;
+    border-radius: 5px;
+}
+.zhuti .leirong1 .left img:hover{
+    box-shadow: 10px 10px 5px #888888;
+}
+.zhuti .leirong1 .left .guanyu{
+    float: right;
+    width: 58%;
+}
+.zhuti .leirong1 .left .guanyu h2{
+    line-height: 50px;  
+    margin-bottom: 10px;
+    margin-top: 10px;
+    padding: 0 10px;
+}
+.zhuti .leirong1 .left .guanyu p{
+    font-size: 17px;
+    color: #333;
+    line-height: 25px; 
+    text-indent: 2em; 
+    padding: 0 10px;
+}
+.zhuti .leirong1 .right {
+    height: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    align-content: space-around;
+    justify-content: space-evenly;
+}
+.zhuti .leirong1 .right .tubiao{
+    width: 40%;
+    height: 45%;
+    background:rgb(235,235,235);
+    border-radius: 15px;
+}
+.zhuti .leirong1 .right .tubiao:hover{
+    border-radius: 25px;
+    background:rgb(200,200,200);
+}
+.zhuti .leirong1 .right .tubiao .logo1,
+.zhuti .leirong1 .right .tubiao .logo2,
+.zhuti .leirong1 .right .tubiao .logo3,
+.zhuti .leirong1 .right .tubiao .logo4{
+    width: 50px;
+    height: 50px;
+    background: url(../images/index/tpjl.png);
+    background-size: cover;
+    margin: 30px auto;
+    margin-bottom: 10px;
+}
+.zhuti .leirong1 .right .tubiao .logo1 {
+    background-position: 0px 0px;
+}
+
+.zhuti .leirong1 .right .tubiao .logo2 {
+    background-position: -50px 0px;
+}
+
+.zhuti .leirong1 .right .tubiao .logo3 {
+    background-position: -100px 0px;
+}
+.zhuti .leirong1 .right .tubiao .logo4 {
+    background-position: -150px 0px;
+}
+.zhuti .leirong1 .right .tubiao span {
+    display: block;
+    text-align: center;
+}
+.zhuti .leirong2{
+    width: 90%;
+    height: 300px;
+    margin: 25px auto;
+
+}
+.zhuti .leirong2 .xingwen,.zhuti .leirong2 .redian{
+    width: 49%;
+    height: 300px;
+    float: left;
+    background-color:beige;
+    border-radius: 14px;
+    overflow: hidden;
+}
+.zhuti .leirong2 .redian{
+    float: right;
+}
+.zhuti .leirong2 .xingwen h2,.zhuti .leirong2 .redian h2{
+    background:rgb(144,116,102);
+    line-height: 50px;
+    padding-left: 15px;
+}
+.zhuti .leirong2 .xingwen ul,.zhuti .leirong2 .redian ul{
+    line-height: 45px;
+    padding: 0 30px;
+}
+.zhuti .leirong2 .xingwen ul li,.zhuti .leirong2 .redian ul li{
+    border-bottom:1px solid #000
+}
+.zhuti .leirong2 .xingwen ul a:hover,.zhuti .leirong2 .redian ul a:hover{
+    text-decoration: underline;
+}
+
+footer {
+    display: flex;
+    width: 100%;
+    height: 80px;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(144,116,102);
+}
+footer p{
+    text-align: center;
+}
+footer a{
+    color: #000;
+}
+footer a:hover{
+    text-decoration: underline;
+}
